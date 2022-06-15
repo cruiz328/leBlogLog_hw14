@@ -1,7 +1,4 @@
-README Repo Template
-
-# TITLE
-
+# CLR Thought Tank
 # Description
 -  Blank blank black
 

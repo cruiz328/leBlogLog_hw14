@@ -1,11 +1,8 @@
 {
-  "name": "leBlogLog_hw14",
+  "name": "lebloglog_hw14",
   "version": "1.0.0",
-  "description": "CLI style Tech blog",
+  "description": "README Repo Template",
   "main": "server.js",
-  "engines": {
-    "node": "6.11.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -14,7 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/cruiz328/leBlogLog_hw14.git"
   },
-  "author": "Christian Ruiz",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cruiz328/leBlogLog_hw14/issues"
@@ -22,15 +20,15 @@
   "homepage": "https://github.com/cruiz328/leBlogLog_hw14#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.3",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "express-handlebars": "^6.0.5",
-    "express-session": "^1.17.2",
-    "mysql2": "^2.3.3",
-    "node": "16.x",
+    "connect-session-sequelize": "^7.1.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "node": "^17.7.2",
     "nodemon": "^2.0.16",
     "path": "^0.12.7",
-    "sequelize": "^6.19.0"
+    "sequelize": "^6.20.1"
   }
 }
