@@ -3,14 +3,14 @@
     
     <form class="new-post-form">
         <div>
-            <label for="post-title">Title</label>
+            <label for="post-title">What's on your mind?</label>
             <input type="text" id="post-title" name="post-title"/>
         </div>
         <div>
-            <label for="post-text">Text</label>
+            <label for="post-text">Wanna elaborate?</label>
             <textarea id="post-text" name="post-text"></textarea>
         </div>
-        <button type="submit" class="btn">Create</button>
+        <button type="submit" class="btn">Add post</button>
     </form>
 </section>
 {{#if posts.length}}
@@ -20,7 +20,7 @@
         {{#each posts as |post|}}
         <li>
             {{> post-info post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit Post</a>
+            <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit</a>
         </li>
         {{/each}}
     </ol>
